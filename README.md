@@ -1,6 +1,9 @@
 # mouseControl
 Used for mapping F-keys to move the mouse to the right or center monitors
 
+## Usage
+* You'll want to identify what the X,Y coordinates are where you want your mouse to go, then set them in the center.js, left.js and right.js files. If you move your mouse to the desired position, then run any of those scripts on the command line like `node center.js` it will spit out the current coordinates that you can then enter in each file.
+
 ## Use with AlfredApp
 * Create a new Workflow called Mouse Center
 * Add a trigger for "Keyword"
