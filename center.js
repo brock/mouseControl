@@ -1,3 +1,3 @@
 var goThere = require('./index');
 
-goThere(900, 500);
+goThere(1200, 500);
